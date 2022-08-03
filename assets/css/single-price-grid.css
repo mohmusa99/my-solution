@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700;800&display=swap');
+/* 
+@font-face {
+    font-family: karla;
+    src: url(../@font-face/Karla/static/Karla-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: karla;
+    src: url(../@font-face/Karla/static/Karla-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: karla;
+    src: url(../@font-face/Karla/static/Karla-Light.ttf);
+    font-weight: lighter;
+    font-style: normal;
+}
+@font-face {
+    font-family: karla;
+    src: url(../@font-face/Karla/static/Karla-ExtraLight.ttf);
+    font-weight: lighter;
+    font-style: normal;
+} */
+*{box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+header{
+    color: hsl(179, 62%, 43%);
+    font-weight: bold;
+}
+
+.days {
+    color: hsl(71, 73%, 54%);
+    font-weight: bold;
+}
+
+.gain{
+    color: hsl(218, 22%, 67%);
+    line-height: 1.5;
+}
+
+.sect-1{
+    background-color: #fff;
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.sect-2{
+    background-color: #2BB3B1;
+    color: #fff;
+    width: 300px;
+    height: 250px;
+    padding: 0 20px 0 20px;
+}
+
+.number{
+    font-weight: bold;
+    font-size: 30px;
+}
+.transparent{
+    font-weight: lighter;
+}
+
+.sect-3{
+    background-color: hsl(179, 42%, 61%);
+    color: #fff;
+    margin-top: 0;
+    width: 300px;
+    height: 250px;
+    padding: 0 20px 0 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.sect-3 p{
+    line-height: 1.5;
+    margin-top: 0px;
+}
+
+button{
+    color: #fff;
+    background-color: hsl(71, 73%, 54%);
+    padding: 15px 0;
+    width: 100%;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 15px;
+    box-shadow: 3px 7px 7px rgba(0, 0, 0, 0.13);
+}
+button:hover {
+    background-color: hsl(71, 43%, 51%);
+}
+
+body{
+   background-color: hsl(204, 43%, 93%);
+   font-family: karla;
+   font-size: 16px;
+   box-sizing: border-box;
+}
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+
+.inner-sect{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and(max-width: 700px) {
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .inner-sect{
+        display:flex
+        flex-direction: row;
+    }
+}
